@@ -1,2 +1,3 @@
 # speeduino_48pin
-Custom speeduino hardware made to fit a standard ecu housing with 2x24 Delphi connectors.
+Custom speeduino v0.4.4d hardware made to fit a standard housing with dual 24-pin Delphi connectors.
+Simpler and lower cost alternative to the Speeduino Dropbear while keeping the same form factor and full compatibility with the Speeduino v0.4.4d hardware.
