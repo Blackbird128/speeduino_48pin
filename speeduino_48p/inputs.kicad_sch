@@ -5,9 +5,9 @@
 	(uuid "6fd72a6d-3df5-46a2-a186-95521e45823e")
 	(paper "A4")
 	(title_block
-		(title "Speeduino XM")
-		(date "2026-01-11")
-		(rev "1.0")
+		(title "Speeduino 48p")
+		(date "2026-02-07")
+		(rev "1.1")
 		(company "Louis")
 	)
 	(lib_symbols
@@ -2158,6 +2158,17 @@
 		)
 		(uuid "13b350be-7ebe-4189-aef8-bbc7754ded95")
 	)
+	(text "MPXH6400A - 4bar \nMPXHZ6250AC6T1 - 2.5bar"
+		(exclude_from_sim no)
+		(at 41.656 22.606 0)
+		(effects
+			(font
+				(size 0.9906 0.9906)
+			)
+			(justify left bottom)
+		)
+		(uuid "2a74584f-8f94-4140-8dec-8eea592d9b9d")
+	)
 	(text "O2 Sensor"
 		(exclude_from_sim no)
 		(at 48.26 73.66 0)
@@ -2193,7 +2204,7 @@
 	)
 	(text "MAP Sensor"
 		(exclude_from_sim no)
-		(at 45.72 21.59 0)
+		(at 41.91 17.018 0)
 		(effects
 			(font
 				(size 1.8796 1.8796)
@@ -2248,7 +2259,7 @@
 	)
 	(text "Jumper allows for optional use of internal MAP as baro"
 		(exclude_from_sim no)
-		(at 45.72 24.13 0)
+		(at 41.656 19.05 0)
 		(effects
 			(font
 				(size 0.9906 0.9906)
@@ -2264,6 +2275,12 @@
 		(uuid "02fa5018-15b3-448b-9d58-8134e1efe1fd")
 	)
 	(junction
+		(at 58.42 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "09752867-a9e3-4898-a864-7d3866081dac")
+	)
+	(junction
 		(at 63.5 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2274,12 +2291,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1d4b7a5f-f940-4050-9056-6e1b9cce448a")
-	)
-	(junction
-		(at 73.66 41.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1deeabec-c4da-42d5-8dfa-3cd1d296ce45")
 	)
 	(junction
 		(at 247.65 88.9)
@@ -2306,10 +2317,10 @@
 		(uuid "338bb82a-cd40-4a4c-9895-3eeb5f0d2f4a")
 	)
 	(junction
-		(at 86.36 48.26)
+		(at 74.93 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "34a3b5df-2e6d-4fbb-b8ae-930b9ebfffab")
+		(uuid "345af665-34ef-40fb-8c57-2bdd796e034c")
 	)
 	(junction
 		(at 149.86 163.83)
@@ -2354,7 +2365,7 @@
 		(uuid "6f6edf00-8184-435b-b451-fc6721fc608c")
 	)
 	(junction
-		(at 36.83 46.99)
+		(at 31.75 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "71406298-a37b-4f18-b0f3-c93db54224b1")
@@ -2378,7 +2389,7 @@
 		(uuid "878f7a9e-4807-4da8-841b-7a36e0e6c0bc")
 	)
 	(junction
-		(at 29.21 46.99)
+		(at 24.13 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8d661ada-ed0f-44a8-b501-20312914a5a5")
@@ -2414,7 +2425,7 @@
 		(uuid "a02dacff-b263-4461-a172-72c3f5b0a286")
 	)
 	(junction
-		(at 33.02 34.29)
+		(at 27.94 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a19624ce-19a9-4cf1-8b75-88c44afe47c7")
@@ -2436,12 +2447,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a9ce3139-5cba-49d4-9254-252f0544d02a")
-	)
-	(junction
-		(at 82.55 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ab23a33a-672b-4b9d-bfc6-0d2e5f9be35b")
 	)
 	(junction
 		(at 130.81 125.73)
@@ -2468,6 +2473,12 @@
 		(uuid "c0151f26-0d8f-4a1f-8ef2-df4b555df86a")
 	)
 	(junction
+		(at 83.82 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cb563d34-57b5-4da2-b744-b44a6a1c8891")
+	)
+	(junction
 		(at 68.58 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2490,6 +2501,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e2639e2c-a8fc-4b99-9291-4552a5329526")
+	)
+	(junction
+		(at 92.71 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e329ef16-b789-41b7-8164-6283bcf628d5")
 	)
 	(junction
 		(at 251.46 99.06)
@@ -2545,7 +2562,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 34.29) (xy 33.02 34.29)
+			(xy 24.13 34.29) (xy 27.94 34.29)
 		)
 		(stroke
 			(width 0)
@@ -2685,7 +2702,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 48.26) (xy 82.55 48.26)
+			(xy 91.44 48.26) (xy 92.71 48.26)
 		)
 		(stroke
 			(width 0)
@@ -2722,16 +2739,6 @@
 			(type default)
 		)
 		(uuid "1b8234f3-f9a8-4339-931b-84186bb08b61")
-	)
-	(wire
-		(pts
-			(xy 82.55 48.26) (xy 82.55 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1bffdc51-8702-47b0-af5f-a41be0e91c75")
 	)
 	(wire
 		(pts
@@ -2785,7 +2792,17 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 34.29) (xy 36.83 34.29)
+			(xy 74.93 41.91) (xy 67.31 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22a209d7-45fd-4fab-9ba6-9dbe1b72ac97")
+	)
+	(wire
+		(pts
+			(xy 27.94 34.29) (xy 31.75 34.29)
 		)
 		(stroke
 			(width 0)
@@ -2965,7 +2982,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 53.34) (xy 86.36 48.26)
+			(xy 92.71 48.26) (xy 92.71 53.34)
 		)
 		(stroke
 			(width 0)
@@ -3045,7 +3062,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 46.99) (xy 29.21 46.99)
+			(xy 21.59 46.99) (xy 24.13 46.99)
 		)
 		(stroke
 			(width 0)
@@ -3085,6 +3102,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 48.26) (xy 99.06 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4aa09c1b-af1f-4a8b-8a41-83b0e8bdc2d4")
+	)
+	(wire
+		(pts
 			(xy 212.09 41.91) (xy 215.9 41.91)
 		)
 		(stroke
@@ -3092,6 +3119,16 @@
 			(type default)
 		)
 		(uuid "4b68e297-c3f8-40cf-bbdb-c861514c202b")
+	)
+	(wire
+		(pts
+			(xy 58.42 41.91) (xy 58.42 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c7c54da-0c45-4cb1-9143-a1f5d41fe37a")
 	)
 	(wire
 		(pts
@@ -3155,7 +3192,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 49.53) (xy 36.83 49.53)
+			(xy 20.32 49.53) (xy 31.75 49.53)
 		)
 		(stroke
 			(width 0)
@@ -3175,7 +3212,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 46.99) (xy 29.21 41.91)
+			(xy 24.13 46.99) (xy 24.13 41.91)
 		)
 		(stroke
 			(width 0)
@@ -3185,23 +3222,13 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 38.1) (xy 82.55 35.56)
+			(xy 74.93 34.29) (xy 74.93 31.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "58def7fb-fbc6-4b00-ab71-41b095cbd9ee")
-	)
-	(wire
-		(pts
-			(xy 86.36 48.26) (xy 88.9 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5aa87ccb-e724-438a-a50c-36e2f91a5552")
 	)
 	(wire
 		(pts
@@ -3312,6 +3339,16 @@
 			(type default)
 		)
 		(uuid "69157530-23a1-46da-9914-b65d57bad8fd")
+	)
+	(wire
+		(pts
+			(xy 58.42 48.26) (xy 63.5 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "694ba5c2-5ab9-4f39-a9bf-0727cc934db0")
 	)
 	(wire
 		(pts
@@ -3475,13 +3512,13 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 41.91) (xy 73.66 41.91)
+			(xy 58.42 31.75) (xy 58.42 34.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7cf9a137-3011-4695-8de1-42500cdf5af8")
+		(uuid "7d9537b7-86ad-4cbd-aa81-fe1a5284e2a2")
 	)
 	(wire
 		(pts
@@ -3502,6 +3539,16 @@
 			(type default)
 		)
 		(uuid "800332ac-5944-482d-aadb-b228f7f874fe")
+	)
+	(wire
+		(pts
+			(xy 74.93 41.91) (xy 83.82 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82701ab4-5d72-42ea-a7d0-46c64d3d09bf")
 	)
 	(wire
 		(pts
@@ -3565,7 +3612,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 46.99) (xy 36.83 41.91)
+			(xy 31.75 46.99) (xy 31.75 41.91)
 		)
 		(stroke
 			(width 0)
@@ -3615,7 +3662,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 41.91) (xy 73.66 48.26)
+			(xy 83.82 41.91) (xy 83.82 48.26)
 		)
 		(stroke
 			(width 0)
@@ -3625,7 +3672,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 46.99) (xy 36.83 46.99)
+			(xy 24.13 46.99) (xy 31.75 46.99)
 		)
 		(stroke
 			(width 0)
@@ -3675,7 +3722,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 53.34) (xy 86.36 53.34)
+			(xy 99.06 53.34) (xy 92.71 53.34)
 		)
 		(stroke
 			(width 0)
@@ -3735,7 +3782,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 38.1) (xy 73.66 41.91)
+			(xy 83.82 35.56) (xy 83.82 41.91)
 		)
 		(stroke
 			(width 0)
@@ -3865,16 +3912,6 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 48.26) (xy 86.36 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc432624-93fd-4361-8a91-02cb93ad5042")
-	)
-	(wire
-		(pts
 			(xy 214.63 88.9) (xy 219.71 88.9)
 		)
 		(stroke
@@ -3995,7 +4032,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 34.29) (xy 33.02 27.94)
+			(xy 27.94 34.29) (xy 27.94 27.94)
 		)
 		(stroke
 			(width 0)
@@ -4465,7 +4502,7 @@
 	)
 	(global_label "ADC-Clamp-2"
 		(shape input)
-		(at 88.9 53.34 0)
+		(at 99.06 53.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4474,7 +4511,7 @@
 		)
 		(uuid "3627dd2a-a74d-4117-b0b7-110d55593e98")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 88.9 53.34 0)
+			(at 99.06 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4605,7 +4642,7 @@
 	)
 	(global_label "MCU-A3"
 		(shape input)
-		(at 88.9 48.26 0)
+		(at 99.06 48.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4614,7 +4651,7 @@
 		)
 		(uuid "6e65a182-70b5-4afa-81ad-a942b93f5043")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 88.9 48.26 0)
+			(at 99.06 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5065,7 +5102,7 @@
 	)
 	(global_label "MAP-EXT"
 		(shape input)
-		(at 73.66 38.1 90)
+		(at 83.82 35.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5074,7 +5111,7 @@
 		)
 		(uuid "e8758ad7-08f7-4063-8812-734af58d370b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 73.66 38.1 0)
+			(at 83.82 35.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5165,7 +5202,7 @@
 	)
 	(symbol
 		(lib_id "v0.4.4c-rescue:MPX4250-Misc")
-		(at 50.8 48.26 0)
+		(at 45.72 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5173,23 +5210,23 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005cd196c6")
 		(property "Reference" "U5"
-			(at 50.165 40.7162 0)
+			(at 45.085 40.7162 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Value" "MPXA4250"
-			(at 50.165 43.4086 0)
+		(property "Value" "MPXHxxxx"
+			(at 45.085 43.4086 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOP-8_6.605x9.655mm_P2.54mm"
-			(at 49.53 48.26 0)
+		(property "Footprint" "Package_SO:SOP-8_3.76x4.96mm_P1.27mm"
+			(at 44.45 48.26 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -5198,7 +5235,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 48.26 0)
+			(at 44.45 48.26 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -5206,15 +5243,15 @@
 			)
 		)
 		(property "Description" ""
-			(at 50.8 48.26 0)
+			(at 45.72 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Digikey Part Number" "MPX4250AP-ND"
-			(at 0 96.52 0)
+		(property "Digikey Part Number" "MPXH6400A"
+			(at -5.08 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5223,7 +5260,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "NXP"
-			(at 0 96.52 0)
+			(at -5.08 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5231,8 +5268,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "MPX4250AP"
-			(at 0 96.52 0)
+		(property "Manufacturer_Part_Number" "MPXH6400A"
+			(at -5.08 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5240,8 +5277,8 @@
 				(hide yes)
 			)
 		)
-		(property "URL" "https://www.digikey.com.au/product-detail/en/nxp-usa-inc/MPX4250AP/MPX4250AP-ND/464053"
-			(at 0 96.52 0)
+		(property "URL" ""
+			(at -5.08 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5269,7 +5306,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 25.4 49.53 270)
+		(at 20.32 49.53 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5277,7 +5314,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005cd19ede")
 		(property "Reference" "#PWR023"
-			(at 19.05 49.53 0)
+			(at 13.97 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5286,7 +5323,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 22.1488 49.657 90)
+			(at 17.0688 49.657 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5295,7 +5332,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 25.4 49.53 0)
+			(at 20.32 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5304,7 +5341,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 25.4 49.53 0)
+			(at 20.32 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5313,7 +5350,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 25.4 49.53 0)
+			(at 20.32 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5334,7 +5371,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 82.55 35.56 180)
+		(at 74.93 31.75 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5342,7 +5379,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005cd1a8e4")
 		(property "Reference" "#PWR029"
-			(at 82.55 29.21 0)
+			(at 74.93 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5351,7 +5388,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 82.423 31.1658 0)
+			(at 74.803 27.3558 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5359,7 +5396,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 82.55 35.56 0)
+			(at 74.93 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5368,7 +5405,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 35.56 0)
+			(at 74.93 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5377,7 +5414,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 82.55 35.56 0)
+			(at 74.93 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5398,7 +5435,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 82.55 41.91 0)
+		(at 74.93 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5406,7 +5443,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005cd1b30e")
 		(property "Reference" "C8"
-			(at 85.471 40.7416 0)
+			(at 77.851 36.9316 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5414,8 +5451,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470pf"
-			(at 85.471 43.053 0)
+		(property "Value" "47pf"
+			(at 77.851 39.243 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5424,7 +5461,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 83.5152 45.72 0)
+			(at 75.8952 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5433,7 +5470,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 82.55 41.91 0)
+			(at 74.93 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5442,7 +5479,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 82.55 41.91 0)
+			(at 74.93 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5450,7 +5487,7 @@
 			)
 		)
 		(property "Digikey Part Number" "311-1124-1-ND"
-			(at 7.62 83.82 0)
+			(at 0 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5459,7 +5496,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Yageo"
-			(at 7.62 83.82 0)
+			(at 0 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5468,7 +5505,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CC0805KRX7R9BB471"
-			(at 7.62 83.82 0)
+			(at 0 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5477,7 +5514,7 @@
 			)
 		)
 		(property "URL" "https://www.digikey.com/product-detail/en/yageo/CC0805KRX7R9BB471/311-1124-1-ND/303034"
-			(at 7.62 83.82 0)
+			(at 0 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5502,7 +5539,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 77.47 48.26 270)
+		(at 87.63 48.26 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5510,7 +5547,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005cd1bb82")
 		(property "Reference" "R34"
-			(at 77.47 43.0022 90)
+			(at 87.63 43.0022 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5518,7 +5555,7 @@
 			)
 		)
 		(property "Value" "470R"
-			(at 77.47 45.3136 90)
+			(at 87.63 45.3136 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5526,7 +5563,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 77.47 46.482 90)
+			(at 87.63 46.482 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5535,7 +5572,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 77.47 48.26 0)
+			(at 87.63 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5544,7 +5581,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 77.47 48.26 0)
+			(at 87.63 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5552,7 +5589,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Panasonic"
-			(at 29.21 -21.59 0)
+			(at 39.37 -21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5561,7 +5598,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "ERJ-6ENF4700V"
-			(at 29.21 -21.59 0)
+			(at 39.37 -21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5570,7 +5607,7 @@
 			)
 		)
 		(property "URL" "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-6ENF4700V/P470CCT-ND/1746871"
-			(at 29.21 -21.59 0)
+			(at 39.37 -21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5579,7 +5616,7 @@
 			)
 		)
 		(property "Digikey Part Number" "P470CCT-ND"
-			(at 29.21 -21.59 0)
+			(at 39.37 -21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5604,7 +5641,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 29.21 38.1 0)
+		(at 24.13 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5612,7 +5649,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005cd20b6a")
 		(property "Reference" "C1"
-			(at 24.13 36.83 0)
+			(at 19.05 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5620,8 +5657,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.01uF"
-			(at 21.59 39.37 0)
+		(property "Value" "0.1uF"
+			(at 16.51 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5630,7 +5667,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 30.1752 41.91 0)
+			(at 25.0952 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5639,7 +5676,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 29.21 38.1 0)
+			(at 24.13 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5648,7 +5685,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 29.21 38.1 0)
+			(at 24.13 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5656,7 +5693,7 @@
 			)
 		)
 		(property "Digikey Part Number" "311-1136-1-ND"
-			(at 0 76.2 0)
+			(at -5.08 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5665,7 +5702,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Yageo"
-			(at 0 76.2 0)
+			(at -5.08 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5674,7 +5711,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CC0805KRX7R9BB103"
-			(at 0 76.2 0)
+			(at -5.08 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5683,7 +5720,7 @@
 			)
 		)
 		(property "URL" "https://www.digikey.com/product-detail/en/yageo/CC0805KRX7R9BB103/311-1136-1-ND/303046"
-			(at 0 76.2 0)
+			(at -5.08 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5708,7 +5745,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 36.83 38.1 0)
+		(at 31.75 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5716,7 +5753,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005cd2115b")
 		(property "Reference" "C2"
-			(at 39.751 36.9316 0)
+			(at 34.671 36.9316 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5725,7 +5762,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 39.751 39.243 0)
+			(at 34.671 39.243 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5734,7 +5771,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 37.7952 41.91 0)
+			(at 32.7152 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5743,7 +5780,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 36.83 38.1 0)
+			(at 31.75 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5752,7 +5789,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 36.83 38.1 0)
+			(at 31.75 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5760,7 +5797,7 @@
 			)
 		)
 		(property "Digikey Part Number" "311-1365-1-ND"
-			(at 0 76.2 0)
+			(at -5.08 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5769,7 +5806,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Yageo"
-			(at 0 76.2 0)
+			(at -5.08 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5778,7 +5815,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CC0805KKX7R7BB105"
-			(at 0 76.2 0)
+			(at -5.08 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5787,7 +5824,7 @@
 			)
 		)
 		(property "URL" "https://www.digikey.com/product-detail/en/yageo/CC0805KKX7R7BB105/311-1365-1-ND/2103149"
-			(at 0 76.2 0)
+			(at -5.08 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5812,7 +5849,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 33.02 27.94 180)
+		(at 27.94 27.94 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5820,7 +5857,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005cd21884")
 		(property "Reference" "#PWR025"
-			(at 33.02 21.59 0)
+			(at 27.94 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5829,7 +5866,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 32.893 23.5458 0)
+			(at 27.813 23.5458 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5837,7 +5874,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 33.02 27.94 0)
+			(at 27.94 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5846,7 +5883,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 27.94 0)
+			(at 27.94 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5855,7 +5892,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 33.02 27.94 0)
+			(at 27.94 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10624,7 +10661,7 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
-		(at 26.67 46.99 90)
+		(at 21.59 46.99 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10632,7 +10669,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d7952fe")
 		(property "Reference" "#PWR0118"
-			(at 30.48 46.99 0)
+			(at 25.4 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10641,7 +10678,7 @@
 			)
 		)
 		(property "Value" "VDD"
-			(at 23.4442 46.5328 90)
+			(at 18.3642 46.5328 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10650,7 +10687,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 26.67 46.99 0)
+			(at 21.59 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10659,7 +10696,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 26.67 46.99 0)
+			(at 21.59 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10668,7 +10705,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 26.67 46.99 0)
+			(at 21.59 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11057,7 +11094,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470pf"
+		(property "Value" "47pf"
 			(at 81.661 59.563 0)
 			(effects
 				(font
@@ -11202,6 +11239,172 @@
 			(project "v0.4.4d"
 				(path "/401a35cd-aa8a-4ed9-9b9d-ba1234f042cd/00000000-0000-0000-0000-00005cd18d89"
 					(reference "#PWR0123")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 58.42 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1dfcc283-a2a8-40c7-a2e5-243c5ff409b0")
+		(property "Reference" "R58"
+			(at 61.976 37.338 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "51k"
+			(at 62.484 39.624 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 56.642 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 58.42 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 58.42 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Panasonic"
+			(at -11.43 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ERJ-6ENF4700V"
+			(at -11.43 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-6ENF4700V/P470CCT-ND/1746871"
+			(at -11.43 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" "P470CCT-ND"
+			(at -11.43 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "347d922c-3aa9-4047-9b52-fa795bd94da7")
+		)
+		(pin "2"
+			(uuid "e12fad6a-3e2b-4bd9-8dab-abd8343b5be9")
+		)
+		(instances
+			(project "speeduino_48p"
+				(path "/401a35cd-aa8a-4ed9-9b9d-ba1234f042cd/00000000-0000-0000-0000-00005cd18d89"
+					(reference "R58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 58.42 31.75 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d11176f9-8b44-4522-9951-1f1c2e845cca")
+		(property "Reference" "#PWR042"
+			(at 58.42 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 58.293 27.3558 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 58.42 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "14ee8136-79e5-4c19-9f59-eccbe709d416")
+		)
+		(instances
+			(project "speeduino_48p"
+				(path "/401a35cd-aa8a-4ed9-9b9d-ba1234f042cd/00000000-0000-0000-0000-00005cd18d89"
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)

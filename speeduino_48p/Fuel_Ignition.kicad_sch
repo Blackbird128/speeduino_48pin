@@ -5,9 +5,9 @@
 	(uuid "b20bb74b-3185-44b8-82cd-8c5ed4ca5c1d")
 	(paper "A4")
 	(title_block
-		(title "Speeduino XM")
-		(date "2026-01-11")
-		(rev "1.0")
+		(title "Speeduino 48p")
+		(date "2026-02-07")
+		(rev "1.1")
 		(company "Louis")
 	)
 	(lib_symbols
